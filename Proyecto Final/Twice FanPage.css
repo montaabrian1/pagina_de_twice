@@ -1,0 +1,388 @@
+body{
+    background-image: url("./Trabajo final integrador/twice\ wallpaper.jpg");
+    background-size: auto;
+}
+
+link {
+    color: black;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*Header*/
+/*Banner*/
+
+.tamañoImagen{
+    height: 300px;
+    width: 1400px;
+}
+.tamañoIcono{
+    height: 200px;
+    width: 200px;
+    
+}
+.iconMargin{
+    margin-left: -1100px;
+    
+}
+.positionHeader{
+    position: absolute;
+}
+.fraseFanPage{
+    font-size: 16px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    margin-left: -1150px;
+    margin-top: 125px;
+}
+
+/*Menu*/
+
+
+.letraFraseBanner{
+    font-family: 'Indie Flower';
+    font-size: 50px;
+    color: rgba(244, 70, 227, 1);  
+}
+
+
+.tamañoBarraMenu{
+    height: 75px;
+    width: 1400px;
+    background-color: rgba(72, 67, 67, 1);
+}
+.marginLetraFraseBanner{
+    margin-top: 150px;
+    margin-left: 800px;
+}
+
+.flexBarraMenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 125px;
+    
+}
+
+.flexCuadraditoMenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.letraMenu{
+    font-family: 'Indie Flower';
+    font-size: 20px;
+}
+.tamañoCuadradoBarraMenu{
+    height: 50px;
+    width: 150px;
+    background-color: rgba(233, 183, 183, 0.87);
+}
+
+
+/*Main*/
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Descripcion del grupo*/
+.ajusteImagenGrupo{
+    height: 497px;
+    width: 500px;
+    border: solid 2px black ;
+}
+.ajusteFondoDescripcion{
+    height: 500px;
+    width: 700px;
+    border: solid 2px black;
+}
+
+.flexDescripcionGrupo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.marginDescripcionGrupo{
+    margin-top: 200px;
+}
+.marginDescripcionGrupo1{
+    margin-top: -4px;
+    margin-left: -3px;
+}
+.posicionDescripcionGrupo{
+    position: absolute; 
+}
+
+
+.tipoLetraDescripcionGrupo{
+    font-family: 'Indie Flower';
+    font-size: 20px;
+    font-weight: bolder;
+}
+.tipoLetraDescripcionGrupoTitulo{
+    font-family: 'Indie Flower';
+}
+
+.marginLetraDescripcionGrupoTitulo{
+    margin-left: 600px;
+}
+.marginDescripcionGrupoP1{
+    margin-left: 550px;
+}
+.marginDescripcionGrupoP2{
+    margin-left: 600px;
+}
+.marginDescripcionGrupoP3{
+    margin-left: 650px;
+}
+.marginDescripcionGrupoP4{
+    margin-left: 650px;
+}
+.marginDescripcionGrupoP5{
+    margin-left: 600px;
+}
+.marginDescripcionGrupoP6{
+    margin-left: 570px;
+}
+.marginParrafos{
+    margin-top: 30px;
+}
+
+/*Descripcion Del Grupo*/
+
+
+
+/*Noticias del grupo*/
+
+/*Barra "Twice News"*/
+.ajusteTamañoNoticias{
+    width: 1400px;
+    height: 75px;
+    background-color: rgba(233, 183, 183, 0.37);
+    border: solid 2px black;
+}
+.flexBarraDeNoticias{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.marginBarraDeNoticias{
+    margin-top: 200px;
+}
+.tipoLetraNoticias{
+    font-family: 'Indie Flower';
+   font-size: 50px;
+}
+.ajusteFlexNoticias{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Seccion de noticias de twice*/
+
+.ajusteFondoNoticias{
+    width: 1400px;
+    height: 1400px;
+    background-color: rgba(233, 183, 183, 0.37);
+    margin-top: 100px;
+    border: solid 2px black;
+}
+
+.ajusteImagenNoticias{
+    width: 300px;
+    height: 300px;
+}
+.letraNoticias{
+    font-family: 'Indie Flower';
+   font-size: 30px;
+}
+
+.flexSeccionNoticias1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flexSeccionNoticias2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flexSeccionNoticias3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flexSeccionNoticias4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flexDivisionNoticias1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 400px;
+}
+.flexDivisionNoticias2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 400px;
+}
+.marginDivisionNoticias1{
+    margin-top: 200px;
+}
+.marginDivisionNoticias2{
+    margin-top: 200px;
+}
+
+.fondoDescripcionNoticiaYFlex{
+    width: 300px;
+    height: 75px;
+    border: solid 2px black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/*Section de merchandising*/
+
+/*Barra "Merchandising"*/
+
+.letraMerchandising{
+    font-family: 'Indie Flower';
+    font-size: 50px;
+}
+
+.tamañoBarraMerch{
+    width: 1400px;
+    height: 75px;
+    background-color: rgba(233, 183, 183, 0.37);
+    border: solid 2px black;
+}
+.marginBarraMerch{
+    margin-top: 200px;
+}
+.flexBarraMerch{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Cuadro con los productos de merch*/
+
+.tamañoSeccionMerch{
+    height: 1200px;
+    width: 1600px;
+    border: solid 2px black;
+    margin-top: 100px;
+    background-color: rgba(233, 183, 183, 0.37);
+}
+
+.letraDelProducto{
+    font-family: 'Indie Flower';
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.flexProducto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tamañoImagenProducto{
+    height: 200px;
+    width: 200px;
+    /*border: solid 2px black;*/
+}
+
+.merchFlexDivision1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 300px;
+    margin-top: 200px;
+}
+
+.merchFlexDivision2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 300px;
+    margin-top: 200px;
+}
+/*main*/
+
+
+/*footer*/
+
+
+/*Mas informacion acerca de twice*/
+.tamañoContenedorRedesSociales{
+    background-color: rgba(233, 183, 183, 0.37);
+    margin-top: 100px;
+    border: solid 2px black;
+}
+.flexContenedorRedesSociales{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tamañoLetraRedesSocial{
+    font-family: 'Indie Flower';
+    font-size: 26px;
+    font-weight: bolder;
+    
+}
+
+.tamañoIconos{
+    height: 100px;
+    width: 100px;
+}
+
+
+
+.flexIconos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+/*Conacto de creador de la página*/
+.divInformacion{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+}
+.letraInformacion{
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+
+
